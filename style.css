@@ -1,8 +1,8 @@
 .header-banner {
-    background-image: url(./images/blue.jpg);
+    background-image: url(./images/Cookin-with-mike-art.jpeg);
     background-size: cover;
-    background-position: center;
-    height: auto;
+    background-position: top;
+    height: 500px;
     display: flex;
     justify-content: center;
     color: white;
@@ -24,20 +24,58 @@
     z-index: 1;
 }
 
+.imgcontainer {
+    background-color: #000120;
+}
 .container {
     position: relative;
     z-index: 2;
 }
 
+.home-logo {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    padding-left: 20px;
+    justify-content: flex-start;
+    z-index: 3;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.home-logo img {
+    width: 200px;
+    height: 200px;
+    border: none;
+    transition: transform 0.03s ease;
+}
+
+.home-logo img:hover {
+    transform: scale(1:1);
+}
+
+#mediumimg {
+    position: relative;
+    width: 500px;
+    height: auto;
+}
 .containerlist {
     text-align: center;
+    background-color: rgb(229, 229, 229);
 }
-.headsection {
+.heading {
+    color: rgb(33, 0, 143);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.headingthree {
     color: rgb(33, 0, 143);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-}
+    padding-top: 1%;
 
+}
 .list {
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
@@ -54,6 +92,7 @@
 .banner-subtitle {
     font-size: 1.5rem;
 }
+
 .center {
     display: block;
     margin-left: auto;
@@ -61,6 +100,7 @@
     width: 30%;
     height:auto;
 }
+
 h3 {
     color: rgb(33, 0, 143);
 }
