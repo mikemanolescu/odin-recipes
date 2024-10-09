@@ -54,6 +54,18 @@
     transform: scale(1:1);
 }
 
+.recipe-banner {
+    background-image: url(./images/8bit-food.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 #mediumimg {
     position: relative;
     width: 500px;
@@ -82,6 +94,18 @@
     text-align: left;
     display: inline-block;
     font-size: 30px;
+}
+
+ul li a {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+ul li a:hover {
+    color: rgb(0, 145, 255);
+    text-decoration: underline;
 }
 
 .banner-title {
